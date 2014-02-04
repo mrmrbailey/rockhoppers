@@ -1,0 +1,153 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>uk.co.rockhoppersuk</groupId>
+    <artifactId>rockhoppers</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>rockhoppers</name>
+  
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+  
+    <dependencies>
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+            <version>3.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.camelotinteractive.dgf-core</groupId>
+            <artifactId>dgf-core</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>3.0.5.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>3.0.5.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>thirdparty</groupId>
+            <artifactId>translet-runtime</artifactId>
+            <version>2.7</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.14</version>
+        </dependency>        
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
+    <profiles>
+        <profile>
+            <id>sandpit</id>
+            <modules>
+                <module>../sandpit</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>automation</id>
+            <modules>
+                <module>../automationPlayground</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>bookLibrary</id>
+            <modules>
+                <module>../bookLibrary</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>cloverDemo</id>
+            <modules>
+                <module>../CloverDemo/CIS-Root-POM</module>
+            </modules>
+        </profile>
+        
+        <profile>
+            <id>execFirer</id>
+            <modules>
+                <module>../execFirer</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>guicy</id>
+            <modules>
+                <module>../Guicy</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>strutsExample</id>
+            <modules>
+                <module>../Hello_World_Struts2_Mvn</module>
+            </modules>
+        </profile>
+        
+        <profile>
+            <id>iwgReview</id>
+            <modules>
+                <module>../iwgreview</module>
+            </modules>
+        </profile>
+        
+        <profile>
+            <id>jaxrs</id>
+            <modules>
+                <module>../JAX-RS-Api</module>
+            </modules>
+        </profile>
+
+        <profile>
+            <id>tvApp</id>
+            <modules>
+                <module>../tvApp</module>
+            </modules>
+        </profile>
+        
+    </profiles>
+</project>

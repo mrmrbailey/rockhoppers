@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="tvApp" namespace="/hub" extends="struts-default">
+
+        <action name="view*Hub" class="uk.co.rockhoppersuk.tvApp.action.hub.{1}HubAction">
+            <result type="freemarker">/ftl/hub/view{1}Hub.ftl</result>
+        </action>
+
+        <action name="viewTvShowEpisode" class="uk.co.rockhoppersuk.tvApp.action.episode.ViewTvShowEpisodesAction">
+            <param name="tvShowName" />
+            <result type="freemarker">/ftl/show/viewTvShowEpisodes.ftl</result>
+        </action>
+
+        <action name="viewEpisode" class="uk.co.rockhoppersuk.tvApp.action.episode.ViewEpisodeAction">
+            <param name="tvShowName" />
+            <param name="episodeTitle" />
+            <result type="freemarker">/ftl/show/viewEpisode.ftl</result>
+        </action>
+
+        <action name="view*Listing" class="uk.co.rockhoppersuk.tvApp.action.listing.View{1}ListingAction">
+            <param name="listingDate" />
+            <result type="freemarker">/ftl/listing/view{1}Listing.ftl</result>
+        </action>
+
+        <action name="viewListingForTvShow" class="uk.co.rockhoppersuk.tvApp.action.listing.ViewListingForTvShowAction">
+            <param name="tvShowName" />
+            <result type="freemarker">/ftl/listing/viewListingForTvShow.ftl</result>
+        </action>
+
+        <action name="viewListingForStatus" class="uk.co.rockhoppersuk.tvApp.action.listing.ViewListingForStatusAction">
+            <param name="episodeStatus" />
+            <result type="freemarker">/ftl/listing/viewListingForStatus.ftl</result>
+        </action>
+
+        <action name="viewListingForChannel" class="uk.co.rockhoppersuk.tvApp.action.listing.ViewListingForChannelAction">
+            <param name="channel" />
+            <result type="freemarker">/ftl/listing/viewListingForChannel.ftl</result>
+        </action>
+
+        <action name="viewListingForUnwatchedShows" class="uk.co.rockhoppersuk.tvApp.action.listing.ViewListingForUnwatchedShowsAction">
+            <result type="freemarker">/ftl/listing/viewListingForUnwatchedShow.ftl</result>
+        </action>
+
+        <action name="updateTvShow" class="uk.co.rockhoppersuk.tvApp.action.show.tvdotcom.UpdateTvShowAction">
+            <param name="tvShowName" />
+            <result type="freemarker">/ftl/show/tvdotcom/updateTvShow.ftl</result>
+        </action>
+
+    </package>
+</struts>
