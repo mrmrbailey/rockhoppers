@@ -1,0 +1,1 @@
+Some JAX-RS protoyping esd and mock data
