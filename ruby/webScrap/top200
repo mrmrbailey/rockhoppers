@@ -1,0 +1,241 @@
+1,"
+	",QB,7
+2,"
+	",QB,4
+3,"
+	",QB,4
+4,"
+	",QB,12
+5,"
+	",QB,9
+6,"
+	",QB,9
+7,"
+	",QB,10
+8,"
+	",QB,8
+9,"
+	",QB,5
+10,"
+	",QB,6
+11,"
+	",QB,9
+12,"
+	",QB,12
+13,"
+	",QB,11
+14,"
+	",QB,5
+15,"
+	",QB,9
+16,"
+	",QB,11
+17,"
+	",QB,8
+18,"
+	",QB,8
+19,"
+	",QB,5
+20,"
+	",QB,6
+bob
+1,Calvin Johnson ,WR,DET
+2,Dez Bryant ,WR,DAL
+3,Julio Jones  ,WR,ATL
+4,A.J. Green  ,WR,CIN
+5,Randall Cobb ,WR,GB
+6,Brandon Marshall ,WR,CHI
+7,Jimmy Graham  ,TE,NO
+8,Adrian Peterson ,RB,MIN
+9,Doug Martin ,RB,TB
+10,Larry Fitzgerald  ,WR,ARI
+11,Jamaal Charles  ,RB,KC
+12,Demaryius Thomas ,WR,DEN
+13,Roddy White ,WR,ATL
+14,C.J. Spiller ,RB,BUF
+15,Trent Richardson ,RB,CLE
+16,Andre Johnson ,WR,HOU
+17,Victor Cruz  ,WR,NYG
+18,Ray Rice  ,RB,BAL
+19,Danny Amendola  ,WR,NE
+20,Drew Brees ,QB,NO
+21,Aaron Rodgers ,QB,GB
+22,LeSean McCoy  ,RB,PHI
+23,Jordy Nelson ,WR,GB
+24,Steven Jackson ,RB,ATL
+25,Hakeem Nicks   ,WR,NYG
+26,Marques Colston ,WR,NO
+27,Vincent Jackson ,WR,TB
+28,Arian Foster  ,RB,HOU
+29,Antonio Brown ,WR,PIT
+30,Dwayne Bowe  ,WR,KC
+31,Reggie Wayne ,WR,IND
+32,Cam Newton ,QB,CAR
+33,Russell Wilson  ,QB,SEA
+34,Mike Wallace ,WR,MIA
+35,Pierre Garcon  ,WR,WAS
+36,Torrey Smith ,WR,BAL
+37,Wes Welker ,WR,DEN
+38,Matt Forte ,RB,CHI
+39,DeMarco Murray ,RB,DAL
+40,Darren Sproles ,RB,NO
+41,Marshawn Lynch ,RB,SEA
+42,Eric Decker  ,WR,DEN
+43,Danario Alexander ,WR,SD
+44,Golden Tate   ,WR,SEA
+45,Steve Smith ,WR,CAR
+46,Reggie Bush ,RB,DET
+47,Peyton Manning ,QB,DEN
+48,David Wilson  ,RB,NYG
+49,Josh Gordon ,WR,CLE
+50,Rob Gronkowski  ,TE,NE
+51,Alfred Morris ,RB,WAS
+52,Stevie Johnson ,WR,BUF
+53,Chris Johnson  ,RB,TEN
+54,Maurice Jones-Drew   ,RB,JAX
+55,Colin Kaepernick ,QB,SF
+56,Tom Brady  ,QB,NE
+57,Lamar Miller ,RB,MIA
+58,Mike Williams  ,WR,TB
+59,Michael Floyd ,WR,ARI
+60,Andrew Luck ,QB,IND
+61,Tony Gonzalez ,TE,ATL
+62,Vernon Davis   ,TE,SF
+63,Greg Olsen ,TE,CAR
+64,Robert Griffin III ,QB,WAS
+65,Darren McFadden  ,RB,OAK
+66,Jason Witten ,TE,DAL
+67,Denarius Moore ,WR,OAK
+68,Emmanuel Sanders ,WR,PIT
+69,Cecil Shorts  ,WR,JAX
+70,Matt Ryan  ,QB,ATL
+71,Stevan Ridley  ,RB,NE
+72,Justin Blackmon ,WR,JAX
+73,T.Y. Hilton ,WR,IND
+74,Matthew Stafford ,QB,DET
+75,Miles Austin ,WR,DAL
+76,Greg Jennings ,WR,MIN
+77,Andy Dalton ,QB,CIN
+78,Ryan Mathews  ,RB,SD
+79,James Jones  ,WR,GB
+80,Brandon LaFell  ,WR,CAR
+81,Kyle Rudolph ,TE,MIN
+82,Kenny Britt  ,WR,TEN
+83,Tony Romo ,QB,DAL
+84,Kendall Wright ,WR,TEN
+85,DeSean Jackson  ,WR,PHI
+86,Jared Cook ,TE,STL
+87,Anquan Boldin  ,WR,SF
+88,Josh Freeman  ,QB,TB
+89,Eli Manning  ,QB,NYG
+90,Tavon Austin  ,WR,STL
+91,Brandon Pettigrew  ,TE,DET
+92,Jermichael Finley  ,TE,GB
+93,Owen Daniels ,TE,HOU
+94,Giovani Bernard  ,RB,CIN
+95,Le'Veon Bell  ,RB,PIT
+96,Sam Bradford ,QB,STL
+97,Jeremy Kerley  ,WR,NYJ
+98,Brian Hartline ,WR,MIA
+99,Chris Ivory  ,RB,NYJ
+100,Vincent Brown ,WR,SD
+101,Seattle Defense ,Def,SEA
+102,Shane Vereen  ,RB,NE
+103,Montee Ball   ,RB,DEN
+104,DeAndre Hopkins  ,WR,HOU
+105,Denver Defense ,Def,DEN
+106,Eddie Lacy  ,RB,GB
+107,Joe Flacco  ,QB,BAL
+108,Brandon Myers  ,TE,NYG
+109,Chicago Defense ,Def,CHI
+110,Lance Moore ,WR,NO
+111,Ahmad Bradshaw   ,RB,IND
+112,Martellus Bennett ,TE,CHI
+113,Frank Gore ,RB,SF
+114,Philip Rivers ,QB,SD
+115,Jordan Cameron ,TE,CLE
+116,Stephen Hill  ,WR,NYJ
+117,Sidney Rice  ,WR,SEA
+118,Alshon Jeffery ,WR,CHI
+119,Zach Miller  ,TE,SEA
+120,Marcedes Lewis  ,TE,JAX
+121,San Fran Defense ,Def,SF
+122,Coby Fleener ,TE,IND
+123,Ben Roethlisberger ,QB,PIT
+124,New England Defense ,Def,NE
+125,Andre Roberts ,WR,ARI
+126,Jason Avant   ,WR,PHI
+127,Dustin Keller ,TE,MIA
+128,Ryan Tannehill  ,QB,MIA
+129,Antonio Gates ,TE,SD
+130,Jay Cutler  ,QB,CHI
+131,Alex Smith ,QB,KC
+132,Tyler Eifert  ,TE,CIN
+133,Houston Defense ,Def,HOU
+134,Cincinnati Defense ,Def,CIN
+135,Pierre Thomas ,RB,NO
+136,Carson Palmer  ,QB,ARI
+137,St. Louis Defense ,Def,STL
+138,Ryan Broyles ,WR,DET
+139,Michael Vick  ,QB,PHI
+140,Brandon Weeden ,QB,CLE
+141,Matt Bryant ,K,ATL
+142,Darrius Heyward-Bey  ,WR,IND
+143,Green Bay Defense ,Def,GB
+144,Matt Prater ,K,DEN
+145,Robert Housler ,TE,ARI
+146,Phil Dawson ,K,SF
+147,Ed Dickson   ,TE,BAL
+148,Baltimore Defense ,Def,BAL
+149,Mohamed Sanu ,WR,CIN
+150,Jake Locker ,QB,TEN
+151,Pittsburgh Defense ,Def,PIT
+152,Arizona Defense ,Def,ARI
+153,Justin Tucker ,K,BAL
+154,Cordarrelle Patterson  ,WR,MIN
+155,Stephen Gostkowski  ,K,NE
+156,Rashard Mendenhall ,RB,ARI
+157,Chris Givens ,WR,STL
+158,Greg Little ,WR,CLE
+159,Dwayne Allen ,TE,IND
+160,Matt Schaub ,QB,HOU
+161,Christian Ponder  ,QB,MIN
+162,Malcom Floyd ,WR,SD
+163,Dan Bailey ,K,DAL
+164,Rueben Randle  ,WR,NYG
+165,Dexter McCluster  ,WR,KC
+166,Robert Woods   ,WR,BUF
+167,Jermaine Gresham ,TE,CIN
+168,Garrett Hartley ,K,NO
+169,Fred Davis  ,TE,WAS
+170,Blair Walsh ,K,MIN
+171,Leonard Hankerson ,WR,WAS
+172,Jacoby Ford ,WR,OAK
+173,Sebastian Janikowski  ,K,OAK
+174,Randy Bullock ,K,HOU
+175,Mason Crosby ,K,GB
+176,Steven Hauschka ,K,SEA
+177,Heath Miller ,TE,PIT
+178,BenJarvus Green-Ellis ,RB,CIN
+179,Davone Bess ,WR,CLE
+180,Johnathan Franklin  ,RB,GB
+181,Andre Brown  ,RB,NYG
+182,Kevin Ogletree ,WR,TB
+183,Terrance Williams ,WR,DAL
+184,Aaron Dobson  ,WR,NE
+185,Blaine Gabbert  ,QB,JAX
+186,Vick Ballard ,RB,IND
+187,Andrew Hawkins ,WR,CIN
+188,Scott Chandler ,TE,BUF
+189,Delanie Walker  ,TE,TEN
+190,Jacoby Jones  ,WR,BAL
+191,Mike Goodson  ,RB,NYJ
+192,Zach Ertz  ,TE,PHI
+193,David Ausberry ,TE,OAK
+194,Mark Ingram  ,RB,NO
+195,Earl Bennett ,WR,CHI
+196,Joseph Morgan ,WR,NO
+197,Ronnie Hillman  ,RB,DEN
+198,Brian Quick ,WR,STL
+199,Nate Burleson ,WR,DET
+200,Jon Baldwin  ,WR,KC
