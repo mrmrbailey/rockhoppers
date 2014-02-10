@@ -1,0 +1,1 @@
+appears to be some form of netbeans generated mySQL app - not sure how far I went with it (as it is called mavenproject1 I'd guess not far!)
