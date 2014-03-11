@@ -11,59 +11,61 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>commons-net</groupId>
+                <artifactId>commons-net</artifactId>
+                <version>3.1</version>
+            </dependency>
+        
+            <dependency>
+                <groupId>com.camelotinteractive.dgf-core</groupId>
+                <artifactId>dgf-core</artifactId>
+                <version>1.0.2</version>
+            </dependency>
+        
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-beans</artifactId>
+                <version>3.0.5.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context-support</artifactId>
+                <version>3.0.5.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>thirdparty</groupId>
+                <artifactId>translet-runtime</artifactId>
+                <version>2.7</version>
+            </dependency>
+        
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.14</version>
+            </dependency>
+        
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.10</version>
+                <scope>test</scope>
+            </dependency>
+        
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>1.9.0</version>
+                <scope>test</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
   
-    <dependencies>
-        <dependency>
-            <groupId>commons-net</groupId>
-            <artifactId>commons-net</artifactId>
-            <version>3.1</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>com.camelotinteractive.dgf-core</groupId>
-            <artifactId>dgf-core</artifactId>
-            <version>1.0.2</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-beans</artifactId>
-            <version>3.0.5.RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context-support</artifactId>
-            <version>3.0.5.RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>thirdparty</groupId>
-            <artifactId>translet-runtime</artifactId>
-            <version>2.7</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.14</version>
-        </dependency>        
-        
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.10</version>
-            <scope>test</scope>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-            <version>1.9.0</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-    
     <build>
         <plugins>
             <plugin>
