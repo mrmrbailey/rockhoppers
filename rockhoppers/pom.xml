@@ -90,6 +90,7 @@
 
         <profile>
             <id>automation</id>
+            <!-- I wouldn't recommend using it is a mess - go to projects directly -->
             <modules>
                 <module>../automationPlayground</module>
             </modules>
