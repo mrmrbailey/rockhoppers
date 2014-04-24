@@ -12,7 +12,7 @@ h3 {
 
 table {
  border: 1px solid black;
- font-size: medium;
+ font-size: small;
  text-align: center;
 }
 
@@ -33,6 +33,11 @@ td:first-child {
   text-align: left; 
 }
 
+td:last-child {
+  text-align: left; 
+  font-size:small;
+}
+
 img {
   height:23;
   width:12;
@@ -47,7 +52,7 @@ img {
 }
 
 #fixtures {
-  page-break-after: always;
+#  page-break-after: always;
 }
 
 #fixtures td:last-child {
