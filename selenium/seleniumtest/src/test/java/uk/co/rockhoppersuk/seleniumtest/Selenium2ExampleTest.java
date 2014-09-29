@@ -28,7 +28,7 @@ public class Selenium2ExampleTest {
     /**
      * Test of selenuimFireFoxExample method, of class Selenium2Example.
      */
-//    @Test
+    @Test
     public void testseleniumFireFoxExample() {
         System.out.println("selenuimFireFoxExample");
         Selenium2Example instance = new Selenium2Example();
@@ -38,7 +38,7 @@ public class Selenium2ExampleTest {
     /**
      * Test of seleniumIEExample method, of class Selenium2Example.
      */
-//    @Test
+    @Test
     public void testseleniumChromeExample() {
         System.out.println("seleniumIEExample");
         Selenium2Example instance = new Selenium2Example();
