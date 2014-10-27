@@ -1,5 +1,6 @@
 package uk.co.rockhoppersuk.regex;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class RegexParser {
@@ -13,4 +14,8 @@ public class RegexParser {
 	public boolean isMatch(String text) {
 		return pattern.matcher(text).matches();
 	}
+
+    public Matcher getMatcher(String text) {
+        return pattern.matcher(text);
+    }
 }

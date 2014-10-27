@@ -47,5 +47,18 @@ public class TestRegexParser {
 		String testString = "2011-06-11 11:45";
 		assertTrue(r.isMatch(testString));
 
-	}	
+	}
+
+    @Test
+    public final void testGroups() {
+
+        String testPattern = "(.*)result: #(.*)";
+        String testString = "PRINTER - result: #OK";
+        RegexParser r = new RegexParser(testPattern);
+        assertTrue(r.isMatch(testString));
+
+        System.out.println(r.getMatcher(testString).groupCount());
+        int count = r.getMatcher(testString).groupCount();
+        System.out.println(r.getMatcher(testString).group(count-1));
+    }
 }
