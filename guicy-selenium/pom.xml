@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.gtech</groupId>
+    <artifactId>guicy-selenium</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+
+        <!-- artifact versions -->
+        <project.cucumber.version>1.1.7</project.cucumber.version>
+        <project.selenium.version>2.43.1</project.selenium.version>
+
+        <project.jacoco.version>0.7.1.201405082137</project.jacoco.version>
+        <project.checkstyle.version>2.12.1</project.checkstyle.version>
+        <project.changes-plugin.version>2.10</project.changes-plugin.version>
+        <project.pmd.version>3.2</project.pmd.version>
+
+        <project.scm.branch>branches/2014/nth_promo/</project.scm.branch>
+    </properties>
+    <dependencies>
+
+        <!-- The Selenium dependencies -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${project.selenium.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-firefox-driver</artifactId>
+            <version>${project.selenium.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-ie-driver</artifactId>
+            <version>${project.selenium.version}</version>
+        </dependency>
+
+
+        <!-- Guice -->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>3.0</version>
+        </dependency>
+        <!-- End of Guice -->
+
+        <!-- Cucumber Dependencies-->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-guice</artifactId>
+            <version>${project.cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>${project.cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- End Cucumber Dependencies-->
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+            <scope>test</scope>
+        </dependency>
+
+
+
+    </dependencies>
+</project>
