@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.gtech</groupId>
+    <artifactId>SystemPropertiesOutputter</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+            <version>4.11</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.17</version>
+                <configuration>
+                    <argLine>-Xmx1024m -XX:MaxPermSize=512m</argLine>
+                    <systemPropertyVariables>
+                        <!-- The control properties -->
+                        <control.job.name>${env.CONTROL.JOB.NAME}</control.job.name>
+                        <control.job.number>${env.CONTROL.JOB.NUMBER}</control.job.number>
+
+                        <!-- Host Properties-->
+                        <host.name>${env.HOST.NAME}</host.name>
+                        <host.username>${env.HOST.USERNAME}</host.username>
+                        <host.password>${env.HOST.PASSWORD}</host.password>
+                        <host.project.name>${env.HOST.PROJECT.NAME}</host.project.name>
+
+                        <!-- Product Properties-->
+                        <!-- Lotto -->
+                        <lotto.result.wednesday.numbers>${env.LOTTO.RESULT.WEDNESDAY.NUMBERS}</lotto.result.wednesday.numbers>
+                        <lotto.result.saturday.numbers>${env.LOTTO.RESULT.SATURDAY.NUMBERS}</lotto.result.saturday.numbers>
+                        <lotto.raffle.config.winners>${env.LOTTO.RAFFLE.CONFIG.WINNERS}</lotto.raffle.config.winners>
+                        <lotto.raffle.config.prize>${env.LOTTO.RAFFLE.CONFIG.PRIZE}</lotto.raffle.config.prize>
+
+                        <!-- EuroMillions -->
+                        <euro.result.tuesday.numbers>${env.EURO.RESULT.TUESDAY.NUMBERS}</euro.result.tuesday.numbers>
+                        <euro.result.friday.numbers>${env.EURO.RESULT.FRIDAY.NUMBERS}</euro.result.friday.numbers>
+                        <euro.result.exchange.rate>${env.EURO.RESULT.EXCHANGE.RATE}</euro.result.exchange.rate>
+
+                        <!-- Thunderball -->
+                        <thunderball.result.wednesday.numbers>${env.THUNDERBALL.RESULT.WEDNESDAY.NUMBERS}</thunderball.result.wednesday.numbers>
+                        <thunderball.result.friday.numbers>${env.THUNDERBALL.RESULT.FRIDAY.NUMBERS}</thunderball.result.friday.numbers>
+                        <thunderball.result.saturday.numbers>${env.THUNDERBALL.RESULT.SATURDAY.NUMBERS}</thunderball.result.saturday.numbers>
+
+                        <!-- Altura Properties-->
+                        <altura.ipaddress>${env.ALTURA.IPADDRESS}</altura.ipaddress>
+                        <altura.retailer.id>${env.ALTURA.RETAILER.ID}</altura.retailer.id>
+                        <altura.retailer.passcode>${env.ALTURA.RETAILER.PASSCODE}</altura.retailer.passcode>
+                        <altura.ticket.print>${env.ALTURA.TICKET.PRINT}</altura.ticket.print>
+                        <altura.ticket.print.parse>${env.ALTURA.TICKET.PRINT.PARSE}</altura.ticket.print.parse>
+                        <altura.delay.time>${env.ALTURA.DELAY.TIME}</altura.delay.time>
+                        <receipt.save>${env.RECEIPT.SAVE}</receipt.save>
+                        <receipt.save.path>${env.RECEIPT.SAVE.PATH}</receipt.save.path>
+
+                        <!-- Dashboard Properties-->
+                        <dashboard.portal>${env.DASHBOARD.PORTAL}</dashboard.portal>
+                        <web.driver.implementation>${env.WEB.DRIVER.IMPLEMENTATION}</web.driver.implementation>
+                        <selenuim.webdriver.path>${env.SELENUIM.WEBDRIVER.PATH}</selenuim.webdriver.path>
+                        <webdriver.ie.driver>${env.WEBDRIVER.IE.DRIVER}</webdriver.ie.driver>
+
+
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
