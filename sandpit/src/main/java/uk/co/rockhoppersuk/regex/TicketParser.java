@@ -51,7 +51,7 @@ public class TicketParser {
             System.err.println("OPPS");
         }
         System.out.println(matcher.groupCount());
-        for (int i = 0; i < matcher.groupCount(); i++) {
+        for (int i = 0; i <= matcher.groupCount(); i++) {
             System.out.println(i + " : " + matcher.group(i));
         }
         return true;
